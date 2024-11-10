@@ -15,8 +15,7 @@ export default function clone() {
           </p>
         </div>
 
-        <div className="bg-white md:w-[400px] w-[300px] md:mt-36npm run build
-         h-[350px] -ml-[500px] md:mr-64 rounded-xl mt-[450px]  shadow-md shadow-zinc-400">
+        <div className="bg-white md:w-[400px] w-[300px] md:mt-36 h-[350px] -ml-[500px] md:mr-64 rounded-xl mt-[450px]  shadow-md shadow-zinc-400 ">
        
           <ul>
             <li className="text-center">
