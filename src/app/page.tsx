@@ -1,101 +1,65 @@
-import Image from "next/image";
-
-export default function Home() {
+import Link from "next/link";
+export default function clone() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div>
+       <title>facebook.com</title>
+      <main className="flex justify-between">
+        <div>
+         
+          <h1 className="text-[#0866ff] ml-4 font-sans  text-6xl font-bold md:ml-60 mt-52">
+            facebook
+          </h1>
+          <br />
+          <p className="md:w-[490px] w-[300px] ml-4 md:ml-60 text-xl md:text-3xl font-[400]">
+            Facebook helps you connect and share with the people in your life
+          </p>
+        </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+        <div className="bg-white md:w-[400px] w-[300px] md:mt-36npm run build
+         h-[350px] -ml-[500px] md:mr-64 rounded-xl mt-[450px]  shadow-md shadow-zinc-400">
+       
+          <ul>
+            <li className="text-center">
+              <input
+                className="border-zinc-200 border-[1px] md:text-lg md:w-[350px] w-[250px] text-sm  rounded h-12 mt-6 px-4 placeholder-gray-400
+               focus:outline-none focus:ring-0 focus:ring-[#0866ff] focus:border-[#0866ff] focus:shadow-lg transition-all"
+                type="text"
+                placeholder="Email address or phone number"
+              />
+            </li>
+
+            <li className="text-center">
+              <input
+                className="border-zinc-200 border-[1px] text-sm md:text-lg md:w-[350px] w-[250px] rounded h-12 mt-6 px-4 placeholder-gray-400
+               focus:outline-none focus:ring-0 focus:ring-[#3a4250] focus:border-[#0866ff] focus:shadow-lg transition-all"
+                type="text"
+                placeholder="Password"
+              />
+            </li>
+
+            <li>
+              <button className="text-center w-[250px] bg-[#0866ff] rounded text-white md:w-[350px] h-12 mt-4 ml-7 font-semibold text-[22px]">
+                Log in
+              </button>
+            </li>
+            <li>
+              <p className="text-[#0866ff] text-center mt-2">
+                Forgotten password?
+              </p>
+            </li>
+            <hr className="md:w-[340px] w-[250px] ml-6 mt-4" />
+            <li>
+              <button className="bg-[#42b72a] w-40 md:w-48 h-12 text-center ml-20 md:ml-28 mt-6 rounded text-white font-semibold text-[16px] md:text-[18px]">
+                Create new account
+              </button>
+            </li>
+          </ul>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      <p className="md:ml-[930px] m;-[800px] mt-7 text-[15px]">
+        <Link className="font-bold text-[15px]" href={"#"}>Create a page</Link> for a celebrity, brand or
+        business.
+      </p>
     </div>
   );
 }
